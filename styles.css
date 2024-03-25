@@ -1,0 +1,63 @@
+
+body {
+  
+ font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.video-section, .lyrics-section {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.lyrics-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+.highlight{
+ background-color: red;
+
+}
+
+
+.container{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+.banner{
+	width: 100%;
+	height: 69vh;
+	background-image:url(banner.jpg);
+	background-size: cover;
+	background-poition: 50%:
+	border-radius: 10px;
+	
+	margin-top:20px;
+}
+
+.oip{
+border-radius:16px 16px;
+position: absolute;
+left: 700px;
+bottom: 50px;
+}
